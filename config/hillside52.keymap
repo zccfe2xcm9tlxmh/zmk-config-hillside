@@ -16,7 +16,7 @@
 #define NAV_L    3
 #define SYM_L    4
 #define ADJ_L    5
-#define CUS1_L   6
+#define CUST1_L  6
 
 #define Undo   LC(Z)
 #define Cut    LC(X)
