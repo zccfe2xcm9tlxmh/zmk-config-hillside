@@ -16,7 +16,7 @@
 #define NAV_L    3
 #define SYM_L    4
 #define ADJ_L    5
-#define CUST1_L  6
+#define CUST_L   6
 
 #define Undo   LC(Z)
 #define Cut    LC(X)
@@ -35,13 +35,13 @@
  * | ESC   |   Q   |   W   |   E   |   R   |   T   |-----------------------------------|   Y   |   U   |   I   |   O   |   P   | BKSPC |
  * | TAB   |   A   |   S   |   D   |   F   |   G   |-----------------------------------|   H   |   J   |   K   |   L   |   ;   | ENTER |
  * | SHIFT |   Z   |   X   |   C   |   V   |   B   |  CMD  |-------------------|   /   |   N   |   M   |   ,   |   .   |  /    |   '   |
- * | Mute  | L ALT |  CTRL |-------|  CMD  |  CMD  | SPACE | CUST1 |---|  Sym  | SHIFT |  ALT  |  GUI  |-------| Left  | Down  | Right |
+ * | Mute  | L ALT |  CTRL |-------|  CMD  |  CMD  | SPACE | CUST  |---|  Sym  | SHIFT |  ALT  |  GUI  |-------| Left  | Down  | Right |
  */
                         bindings = <
 &kp  ESC      &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  BSPC
 &kp  TAB      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  ENTER
 &kp  LSHFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  LGUI                                        &kp  SLASH      &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  SLASH    &kp  SQT
-&kp  C_MUTE   &kp  LALT     &kp  LCTRL                  &kp  LGUI     &kp  LGUI     &kp  SPACE    &mo  CUST1_L         &mo  SYM_L    &kp  RSHFT      &kp  LALT     &kp  RGUI                   &kp  LEFT     &kp  DOWN     &kp  RIGHT
+&kp  C_MUTE   &kp  LALT     &kp  LCTRL                  &kp  LGUI     &kp  LGUI     &kp  SPACE    &mo  CUST_L         &mo  SYM_L    &kp  RSHFT      &kp  LALT     &kp  RGUI                   &kp  LEFT     &kp  DOWN     &kp  RIGHT
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
