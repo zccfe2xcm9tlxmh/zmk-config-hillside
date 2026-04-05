@@ -51,16 +51,16 @@
                 custom1_layer {
 /* CUSTOM 1
  * -------------------------------------------------------------------------------------------------------------------------------------
- * | ESC   |  F1   |  F2   |  F3   |  F4   |  F5   |-----------------------------------|  F7   |  F8   |  F9   |  F10  |  F11  |  F12  |
+ * | ESC   |  BRI- |  BRI+ |  F3   |  F4   |  F5   |-----------------------------------|  F7   | PREV  | PP  |NEXT | VOL-  | VOL+  |
  * | TAB   |   A   | LEFT  |  UP   | RIGHT |   G   |-----------------------------------|   [   |   ]   |   (   |   )   |   ;   |   -   |
  * | SHIFT |   Z   |   X   |  DOWN |   V   |   B   |  CMD  |-------------------|   /   |   N   |   M   |   ?   |   !   |   /   |   \   |
  * | Mute  | L ALT |  CTRL |-------|  CMD  |  CMD  | SPACE | CUST1 |---|  Sym  | SHIFT |  ALT  |  GUI  |-------| Left  | Down  | Right |
  */
                         bindings = <
-&kp  ESC      &kp  F1       &kp  F2       &kp  F3       &kp  F4       &kp  F5                                                                        &kp  F7       &kp  F8       &kp  F9       &kp  F10      &kp  F11      &kp  F12
-&kp  TAB      &kp  A        &kp  LEFT     &kp  UP       &kp  RIGHT    &kp  G                                                                         &kp  LBKT     &kp  RBKT     &kp  LPAR     &kp  RPAR     &kp  SEMI     &kp  MINUS
-&kp  LSHFT    &kp  Z        &kp  X        &kp  DOWN     &kp  V        &kp  B        &kp  LGUI                                        &kp  SLASH      &kp  N        &kp  M        &kp  QMARK    &kp  EXCL     &kp  SLASH    &kp  BSLH
-&kp  C_MUTE   &kp  LALT     &kp  LCTRL                  &kp  LGUI     &kp  LGUI     &kp  SPACE    &mo  CUST1_L         &mo  SYM_L    &kp  RSHFT      &kp  LALT     &kp  RGUI                   &kp  LEFT     &kp  DOWN     &kp  RIGHT
+&kp  ESC     &kp  C_BRI_DN &kp  C_BRI_UP &kp  F3       &kp  F4       &kp  F5                                                                        &kp  F7       &kp  C_PREV   &kp  C_PP     &kp  C_NEXT   &kp  C_VOL_DN &kp  C_VOL_UP
+&kp  TAB     &kp  A        &kp  LEFT     &kp  UP       &kp  RIGHT    &kp  G                                                                         &kp  LBKT     &kp  RBKT     &kp  LPAR     &kp  RPAR     &kp  SEMI     &kp  MINUS
+&kp  LSHFT   &kp  Z        &kp  X        &kp  DOWN     &kp  V        &kp  B        &kp  LGUI                                        &kp  SLASH      &kp  N        &kp  M        &kp  QMARK    &kp  EXCL     &kp  SLASH    &kp  BSLH
+&kp  C_MUTE  &kp  LALT     &kp  LCTRL                  &kp  LGUI     &kp  LGUI     &kp  SPACE    &mo  CUST1_L         &mo  SYM_L    &kp  RSHFT      &kp  LALT     &kp  RGUI                   &kp  LEFT     &kp  DOWN     &kp  RIGHT
                         >;
 			
                         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
