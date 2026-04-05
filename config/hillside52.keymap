@@ -75,9 +75,9 @@
  * | Mute  | L ALT |  CTRL |-------|  CMD  |  CMD  | SPACE | CUST1 |---|  Sym  | SHIFT |  ALT  |  GUI  |-------| Left  | Down  | Right |
  */
                         bindings = <
-&kp  ESC      &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &kp  BSPC
-&kp  TAB      &kp  A        &kp  LEFT     &kp  UP       &kp  RIGHT    &kp  G                                                                         &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  ENTER
-&kp  LSHFT    &kp  Z        &kp  X        &kp  DOWN     &kp  V        &kp  B        &kp  LGUI                                        &kp  SLASH      &kp  N        &kp  M        &kp  QMARK    &kp  EXCL     &kp  SLASH    &kp  SQT
+&kp  ESC      &kp  N1       &kp  N2       &kp  N3       &kp  N4       &kp  N5                                                                        &kp  N6       &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  EQUAL
+&kp  TAB      &kp  A        &kp  LEFT     &kp  UP       &kp  RIGHT    &kp  G                                                                         &kp  H        &kp  N4       &kp  N5       &kp  N6       &kp  PLUS     &kp  MINUS
+&kp  LSHFT    &kp  Z        &kp  X        &kp  DOWN     &kp  V        &kp  B        &kp  LGUI                                        &kp  SLASH      &kp  N        &kp  N1       &kp  N2       &kp  N3       &kp  SLASH    &kp  MULTIPLY
 &kp  C_MUTE   &kp  LALT     &kp  LCTRL                  &kp  LGUI     &kp  LGUI     &kp  SPACE    &mo  CUST1_L         &mo  SYM_L    &kp  RSHFT      &kp  LALT     &kp  RGUI                   &kp  LEFT     &kp  DOWN     &kp  RIGHT
                         >;
 			
