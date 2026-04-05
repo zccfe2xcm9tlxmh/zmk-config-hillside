@@ -69,15 +69,15 @@
                 num_layer {
 /* NUMBERS
  * -------------------------------------------------------------------------------------------------------------------------------------
- * | ESC   |   Q   |   W   |   E   |   R   |   T   |-----------------------------------|   Y   |   U   |   I   |   O   |   P   | BKSPC |
- * | TAB   |   A   | LEFT  |  UP   | RIGHT |   G   |-----------------------------------|   H   |   J   |   K   |   L   |   ;   | ENTER |
- * | SHIFT |   Z   |   X   |  DOWN |   V   |   B   |  CMD  |-------------------|   /   |   N   |   M   |   ?   |   !   |  /    |   '   |
+ * | ESC   |   Q   |   W   |   E   |   R   |   T   |-----------------------------------|   6   |   7   |   8   |   9   |   0   |   =   |
+ * | TAB   |   A   | LEFT  |  UP   | RIGHT |   G   |-----------------------------------|   H   |   4   |   5   |   6   |   +   |   -   |
+ * | SHIFT |   Z   |   X   |  DOWN |   V   |   B   |  CMD  |-------------------|   /   |   N   |   1   |   2   |   3   |   /   |   *   |
  * | Mute  | L ALT |  CTRL |-------|  CMD  |  CMD  | SPACE | CUST1 |---|  Sym  | SHIFT |  ALT  |  GUI  |-------| Left  | Down  | Right |
  */
                         bindings = <
-&kp  ESC      &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  N6       &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  BSPC
-&kp  TAB      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  N4       &kp  N5       &kp  N6       &kp  SEMI     &kp  ENTER
-&kp  LSHFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  LGUI                                        &kp  SLASH      &kp  N        &kp  N1       &kp  N2       &kp  N3       &kp  SLASH    &kp  SQT
+&kp  ESC      &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  N6       &kp  N7       &kp  N8       &kp  N9       &kp  N0       &kp  EQUAL
+&kp  TAB      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  N4       &kp  N5       &kp  N6       &kp  PLUS     &kp  MINUS
+&kp  LSHFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  LGUI                                        &kp  SLASH      &kp  N        &kp  N1       &kp  N2       &kp  N3       &kp  SLASH    &kp  MULTIPLY
 &kp  C_MUTE   &kp  LALT     &kp  LCTRL                  &kp  LGUI     &kp  LGUI     &kp  SPACE    &mo  CUST1_L         &mo  SYM_L    &kp  RSHFT      &mo  NUM_L    &kp  RGUI                   &kp  LEFT     &kp  DOWN     &kp  RIGHT
                         >;
 			
