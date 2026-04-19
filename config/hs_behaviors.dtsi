@@ -10,8 +10,8 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&kp GRAVE>;
-            mods = <(MOD_LGUI)>;
-            keep-mods = <(MOD_RGUI)>;
+            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            keep-mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
         	};
         bsdel: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
