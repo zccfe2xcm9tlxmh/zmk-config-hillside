@@ -23,7 +23,7 @@
 		gresc4: grave_escape4 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp ESC>, <&kp TILDE>;
+            bindings = <&kp ESC>, <&kp A>;
             mods = <(MOD_LGUI)>;
             keep-mods = <(MOD_LGUI)>;
         	};
