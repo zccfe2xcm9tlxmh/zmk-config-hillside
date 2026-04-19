@@ -5,13 +5,14 @@
  */
 
 / {
+   
     behaviors {
         gresc2: grave_escape2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp ESC>, <&kp GRAVE>;
-            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
-            keep-mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+            bindings = <&kp ESC>, <&kp LG(GRAVE)>;
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LSFT)>;
         	};
         bsdel: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
@@ -19,5 +20,16 @@
             bindings = <&kp BACKSPACE>, <&kp DELETE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         	};
+    };
+    
+    macros {
+        cycle: cycle {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = 
+                <&macro_press &kp LGUI>,
+				<&macro_tap &kp GRAVE>,
+				<&macro_release &kp LGUI>;
+    		};
     };
 };
