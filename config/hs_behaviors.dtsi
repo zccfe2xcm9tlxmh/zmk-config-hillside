@@ -10,8 +10,22 @@
         gresc2: grave_escape2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
+            bindings = <&kp ESC>, <&kp GRAVE>;
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
+        	};
+        gresc3: grave_escape3 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
             bindings = <&kp ESC>, <&cycle>;
             mods = <(MOD_LGUI)>;
+        	};
+		gresc4: grave_escape4 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp ESC>, <&kp TILDE>;
+            mods = <(MOD_LGUI)>;
+            keep-mods = <(MOD_LGUI)>;
         	};
         bsdel: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
