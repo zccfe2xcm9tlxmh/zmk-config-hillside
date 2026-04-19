@@ -10,9 +10,8 @@
         gresc2: grave_escape2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp ESC>, <&kp LG(GRAVE)>;
+            bindings = <&kp ESC>, <&cycle>;
             mods = <(MOD_LGUI)>;
-            keep-mods = <(MOD_LGUI)>;
         	};
         bsdel: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
