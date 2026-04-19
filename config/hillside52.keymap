@@ -41,7 +41,7 @@
  * | LCTRL |  LALT |  LGUI |-------|   `   |  LGUI | SPACE | CUST1 |---| SHIFT | NUM_L |  GUI  |  ALT  |-------| Left  | Down  | Right |
  */
                         bindings = <
-&gresc4       &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &bsdel
+&grosc        &kp  Q        &kp  W        &kp  E        &kp  R        &kp  T                                                                         &kp  Y        &kp  U        &kp  I        &kp  O        &kp  P        &bsdel
 &kp  TAB      &kp  A        &kp  S        &kp  D        &kp  F        &kp  G                                                                         &kp  H        &kp  J        &kp  K        &kp  L        &kp  SEMI     &kp  ENTER
 &kp  LSHFT    &kp  Z        &kp  X        &kp  C        &kp  V        &kp  B        &kp  LGUI                                        &kp  SLASH      &kp  N        &kp  M        &kp  COMMA    &kp  DOT      &kp  UP       &kp  RSHIFT
 &kp  LCTRL    &kp  LALT     &kp  LGUI                   &kp  GRAVE    &kp  LGUI     &kp  SPACE    &mo  CUST1_L         &kp  RSHIFT   &mo  NUM_L      &mo  RGUI     &kp  RALT                   &kp  LEFT     &kp  DOWN     &kp  RIGHT

@@ -20,7 +20,7 @@
             bindings = <&kp ESC>, <&cycle>;
             mods = <(MOD_LGUI)>;
         	};
-		gresc4: grave_escape4 {
+		grosc: grave_escape4 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&kp A>;
