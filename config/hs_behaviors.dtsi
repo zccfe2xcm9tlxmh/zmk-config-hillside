@@ -12,7 +12,7 @@
             #binding-cells = <0>;
             bindings = <&kp ESC>, <&kp LG(GRAVE)>;
             mods = <(MOD_LGUI)>;
-            keep-mods = <(MOD_LSFT)>;
+            keep-mods = <(MOD_LGUI)>;
         	};
         bsdel: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
